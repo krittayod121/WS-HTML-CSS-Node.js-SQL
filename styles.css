@@ -1,0 +1,319 @@
+body {
+    font-family: "Nerko One", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+    font-size: 18px;
+}
+
+nav ul li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+nav ul li a:hover img {
+    transform: translateY(-5px);
+}
+
+nav ul li a:hover {
+    transform: translateY(-5px);
+}
+
+header .banner {
+    background-size: cover;
+    padding: 2rem;
+    color: #fff;
+    font-size: 24px;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 2rem;
+}
+
+.search-bar input[type="text"] {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 16px;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2rem;
+}
+
+.featured-destinations {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.featured-destinations::-webkit-scrollbar {
+    height: 8px;
+}
+
+.featured-destinations::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.destination {
+    min-width: 180px; /* Adjusted width for each destination card */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.destination img {
+    width: 180px; /* Fixed width */
+    height: 270px; /* Fixed height */
+    object-fit: cover; /* Ensure the image fits well within the specified size */
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.destination img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destination h3 {
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+
+/* สไตล์พื้นฐานของฟอร์มเข้าสู่ระบบ */
+.login-form {
+    width: 400px; /* ความกว้างที่แน่นอนของฟอร์ม */
+    margin-left: 0; /* ชิดฝั่งซ้าย */
+    margin-right: auto; /* ทำให้ด้านขวายืด */
+    padding: 20px;
+    background-color: floralwhite;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #989ab4;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-form button:hover {
+    background-color: #4a54e1;
+}
+
+
+/* เพิ่มสไตล์ทั่วไปสำหรับหน้า */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+nav ul li a img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f9f9f9; /* พื้นหลังของ footer เป็นสีเฉดอ่อน */
+    padding: 20px;
+    border: 1px solid #ddd; /* เส้นขอบรอบๆ footer */
+    border-radius: 8px; /* มุมโค้งเล็กน้อย */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาเบาๆ เพื่อสร้างมิติ */
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: #333; /* สีข้อความ */
+}
+
+footer div {
+    margin-top: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    color: #555; /* สีข้อความเฉดเทา */
+}
+
+footer ul li a {
+    color: #4a90e2; /* สีลิงก์เป็นเฉดสีฟ้า */
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #357ab7; /* สีลิงก์เมื่อ hover */
+}
+
+footer img {
+    border-radius: 4px; /* ทำให้มุมของโลโก้โค้งเล็กน้อย */
+    border: 1px solid #ccc; /* กรอบรอบโลโก้ */
+}
+
+
+
+.destination p {
+    font-size: 16px;
+    color: #666;
+}
+
+footer {
+    background-color: #65a99949;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    bottom: 0;
+}
+
+.signin-form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.signin-form h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.signin-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-form label {
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.signin-form input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.signin-form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signin-form button:hover {
+    background-color: #ffffff;
+}

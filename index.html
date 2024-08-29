@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ท่องเที่ยวยุโรป</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="home_54dp_5F6368_FILL0_wght300_GRAD0_opsz48 (1).png" alt="Home Icon"> หน้าแรก</a></li>
+                <li><a href="destinations.html"><img src="map_54dp_5F6368_FILL0_wght300_GRAD0_opsz48.png" alt="Destinations Icon"> สถานที่ท่องเที่ยว</a></li>
+                <li><a href="travel-tips.html"><img src="flight_takeoff_54dp_5F6368_FILL0_wght300_GRAD0_opsz48 (1).png" alt="Travel Tips Icon"> เคล็ดลับการเดินทาง</a></li>
+                <li><a href="gallery.html"><img src="gallery_thumbnail_54dp_5F6368_FILL0_wght300_GRAD0_opsz48 (1).png" alt="Gallery Icon"> แกลเลอรี</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="background-image: url('background.jpg'); background-size: cover; padding: 20px;">
+        <section class="search-bar">
+            <input type="text" placeholder="ค้นหาสถานที่ท่องเที่ยว...">
+            <button type="button">ค้นหา</button>
+        </section>
+        
+
+        <section class="featured-destinations">
+            <h2>Select the location you are interested in</h2>
+            <div class="destination">
+                <img src="paris.jpeg" alt="ปารีส">
+                <h3>Paris</h3>
+                <p>เมืองแห่งแสงรอคุณอยู่</p>
+            </div>
+            <div class="destination">
+                <img src="pexels-photo-1701595.jpeg" alt="โรม">
+                <h3>Rome</h3>
+                <p>สำรวจประวัติศาสตร์และวัฒนธรรมที่สดใส</p>
+            </div>
+            <div class="destination">
+                <img src="london.jpeg" alt="ลอนดอน">
+                <h3>London</h3>
+                <p>ผจญภัยในเมืองหลวงของอังกฤษ</p>
+            </div>
+            <div class="destination">
+                <img src="Amsterdam.jpeg" alt="อัมสเตอร์ดัม">
+                <h3>Amsterdam</h3>
+                <p>สำรวจเมืองแห่งคลองและจักรยาน</p>
+            </div>
+            <div class="destination">
+                <img src="Barcelona.jpeg" alt="บาร์เซโลนา">
+                <h3>Barcelona</h3>
+                <p>ดื่มด่ำกับสถาปัตยกรรมและศิลปะของกาวดี้</p>
+            </div>
+        </section>
+
+        <!-- ฟอร์มเข้าสู่ระบบที่เพิ่มเข้ามา -->
+        <section class="login-form">
+            <h2>ลงชื่อเข้าใช้</h2>
+            <form id="todoForm" method="POST" action="/register">
+                <label for="email">อีเมล:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="password">รหัสผ่าน:</label>
+                <input type="password" id="password" name="password" required>
+            
+                <button type="submit">ลงชื่อเข้าใช้</button>
+            </form>
+        </section>
+            
+
+
+
+    <footer>
+        <p>&copy; 2024 ท่องเที่ยวยุโรป. สงวนลิขสิทธิ์.</p>
+        <div style="text-align: left;">
+            <p>ติดต่อเรา:</p>
+            <ul style="list-style-type: none; padding: 0; display: flex; align-items: center;">
+                <li style="margin-right: 10px;">
+                    <img src="contacts_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"Logo" style="height: 30px; vertical-align: middle;">
+                </li>
+                <li>
+                    <ul style="list-style-type: none; padding: 0; margin: 0;">
+                        <li>อีเมล: <a href="mailto:krittayod210747@gmail.com">krittayod210747@gmail.com</a></li>
+                        <li>เบอร์โทร: <a href="tel:063-730-6727">063-730-6727</a></li>
+                        <li>Facebook: <a href="https://www.facebook.com/profile.php?id=100031230393138" target="_blank">Krittayod Thongdee</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
